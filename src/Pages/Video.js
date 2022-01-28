@@ -13,7 +13,7 @@ const Video = (props) => {
 
 
     setTimeout(()=>{
-      history.push('/mango-haze')
+      history.push('/space-cake')
     },20000)
   }, [])
   return(

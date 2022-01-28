@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Points from './../Assets/orig-roomba.png'
 import { useHistory } from 'react-router'
 import Next from '../Components/NextButton/Next'
-import Logo from './../Assets/color-logo-orange.svg'
+import Logo from './../Assets/color-logo-white.png'
 
 /**
 * @author

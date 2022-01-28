@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { gsap } from 'gsap'
 import { useHistory } from 'react-router'
-import PurpleBg from './../Assets/purple-bg.png'
-import PurpleLogo from './../Assets/color-logo-purple.svg'
-import OrangeBg from './../Assets/orange-bg.png'
-import OrangeLogo from './../Assets/color-logo-orange.svg'
+import PurpleBg from './../Assets/purple-bg.jpg'
+import PurpleLogo from './../Assets/color-logo-white.png'
+import OrangeBg from './../Assets/orange-bg.jpg'
+import OrangeLogo from './../Assets/color-logo-white.png'
 
 /**
 * @author
@@ -22,6 +22,7 @@ const Quiz = (props) => {
     var completed = []
     var points = 0
     var counter = 0
+    const titleContainerRef = useRef()
     const question = useRef()
     const questionNumber = useRef()
     const orangeLogoRef = useRef()
@@ -41,54 +42,54 @@ const Quiz = (props) => {
     const questionaire_limit = 5
     const list_of_questions = [
       {
-        question: 'For ultimate freshness, our Live Resin Vapes are made from:',
+        question: 'The bud structure of Space Cake can be described as:',
         options: {
-          a: 'A. Fresh frozen Mango Haze Flower',
-          b: 'B. Dried Mango Haze Flower',
-          c: 'C. Mango Tree Sap'
-        },
-        answer: 'a',
-        bg: `url(${PurpleBg})`
-      },
-      {
-        question: 'By freezing fresh Mango Haze flower we retain the terpenes to extract the truest expression of the plant?',
-        options: {
-          a: 'A. True',
-          b: 'B. False',
+          a: 'A. Dark purple buds with blazing orange pistils, caked with trichomes',
+          b: 'B. Bright green, airy buds',
+          c: 'C. Dark green with orange pistils'
         },
         answer: 'a',
         bg: `url(${OrangeBg})`
       },
       {
-        question: "Color’s Mango Haze Live Resin has what cannabinoid ratio?",
+        question: 'What THC range is Space Cake dried flower?',
         options: {
-          a: 'A. 1:1 - CBD:THC',
-          b: 'B. 2:1 - CBD:THC',
-          c: 'C. 100% CBD',
-          d: 'D. 100% THC'
-        },
-        answer: 'b',
-        bg: `url(${PurpleBg})`
-      },
-      {
-        question: "What flavour palate explosion can you expect from Color Mango Haze Live Resin?",
-        options: {
-          a: "A. Cheesy + Peppery",
-          b: "B. Sweet + Spice",
-          c: "C. Floral + Citrus"
-        },
-        answer: 'b',
-        bg: `url(${OrangeBg})`
-      },
-      {
-        question: 'What go-to format is Color Mango Haze Live Resin available in?',
-        options: {
-          a: 'A. Milled Flower, Ready-to-Roll',
-          b: 'B. PAX Pod',
-          c: 'C. 510 Vape Cartridge'
+          a: 'A. 16-22% THC',
+          b: 'B. 18-24% THC',
+          c: 'C. 20-26% THC'
         },
         answer: 'c',
         bg: `url(${PurpleBg})`
+      },
+      {
+        question: "What is the flavour and aroma profile of Space Cake?",
+        options: {
+          a: 'A. Fruity & Spicy',
+          b: 'B. Musk & Creamy Diesel',
+          c: 'C. Cheesy & Sour'
+        },
+        answer: 'b',
+        bg: `url(${OrangeBg})`
+      },
+      {
+        question: "What is the cultivar lineage cross for Space Cake?",
+        options: {
+          a: "A. GSC x Snow Leopard",
+          b: "B. GSC x Snow Lotus",
+          c: "C. Mac 1 x Snow Lotus"
+        },
+        answer: 'b',
+        bg: `url(${PurpleBg})`
+      },
+      {
+        question: 'Space Cake is what plant type?',
+        options: {
+          a: 'A. Hybrid Indica-dominant',
+          b: 'B. Hybrid Sativa-dominant ',
+          c: 'C. CBD dominant'
+        },
+        answer: 'a',
+        bg: `url(${OrangeBg})`
       }
     ]
     const history = useHistory()
@@ -98,15 +99,18 @@ const Quiz = (props) => {
     }, [])
 
     const randList = () => {
+      let selectedColor = completed.length % 2 === 0 ? '#6045B9' : '#E25640'
 
       keyMap.forEach(key => {
         // Set answer colors to orange or purple depending on odd or even question index
         if (completed.length % 2 === 0) { // Orange
-          eval(`show${key.toUpperCase()}`).current.style = "background-color: #FF8C00"
+          eval(`show${key.toUpperCase()}`).current.style = "background-color: " + selectedColor
+          titleContainerRef.current.className = 'orange'
           orangeLogoRef.current.className = 'logo'
           purpleLogoRef.current.className = 'logo displayNone'
         } else { // Purple
-          eval(`show${key.toUpperCase()}`).current.style = "background-color: #6D0A45"
+          eval(`show${key.toUpperCase()}`).current.style = "background-color: " + selectedColor
+          titleContainerRef.current.className = 'purple'
           orangeLogoRef.current.className = 'logo displayNone'
           purpleLogoRef.current.className = 'logo'
         }
@@ -139,7 +143,7 @@ const Quiz = (props) => {
             eval(key).current.className = `ans`
             if (list_of_questions[random].options[key]) {
               eval(key).current.textContent = list_of_questions[random].options[key]
-              eval(`show${key.toUpperCase()}`).current.className = `orange_bg ${key}`
+              eval(`show${key.toUpperCase()}`).current.className = `option ${key}`
             } else {
               eval(`show${key.toUpperCase()}`).current.className = 'displayNone'
             }
@@ -151,14 +155,16 @@ const Quiz = (props) => {
     const selected_answer = (selected_data) => {
 
       let index = completed[completed.length -1]
+      let selectedColor = completed.length % 2 === 0 ? '#E25640' : '#6045B9'
 
       if(selected_data == list_of_questions[index].answer) {
-        gsap.to(`.${selected_data}`, {backgroundColor: '#FF8C00', duration: 0.5})
+        gsap.to(`.${selected_data}`, {backgroundColor: selectedColor, duration: 0.5})
         eval(selected_data).current.textContent = 'Correct.';
         eval(selected_data).current.className = `ans correct`;
         points++;
       } else{
-        gsap.to(`.${selected_data}`, {backgroundColor: '#6D0A45', duration: 0.5})
+        gsap.to(`.${selected_data}`, {backgroundColor: selectedColor, duration: 0.5})
+        eval(selected_data).current.className = `ans incorrect`;
         eval(selected_data).current.textContent = 'Incorrect';
       }
 
@@ -171,7 +177,7 @@ const Quiz = (props) => {
     return (
       <div className="quiz-container" ref={bg}>
         <div id='quizHolder'>
-            <div id='titleHolder'>
+            <div id='titleHolder' ref={titleContainerRef}>
               <div className="questionNumber" ref={questionNumber}>1</div>
               <h1 ref={question}></h1>
             </div>

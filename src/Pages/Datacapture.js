@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useHistory } from 'react-router'
-import Logo from './../Assets/color-logo-orange.svg'
+import Logo from './../Assets/color-logo-white.png'
 
 /**
 * @author
@@ -25,7 +25,7 @@ const Datacapture = (props) => {
       'points': points,
       ...user_metadata
       }
-    fetch("https://bottlecapdev.pythonanywhere.com/mangohaze", {
+    fetch("https://bottlecapdev.pythonanywhere.com/spacecake", {
       method: "POST",
       mode: "cors",
       headers: {

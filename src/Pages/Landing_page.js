@@ -1,6 +1,6 @@
 import React, {useEffect, useRef, useState} from 'react'
 import Next from '../Components/NextButton/Next'
-import Logo from './../Assets/color-logo-orange.svg'
+import Logo from './../Assets/color-logo-white.png'
 import DownArrow from './../Assets/arrow-down.png'
 import { gsap } from 'gsap'
 import './Pages.scss'
@@ -188,7 +188,7 @@ const [settingProvince, setProvinceYear] = useState()
         <div id='dob_capture'>
         <div className='select_container' onClick={(e)=>{ set_sidebar_dates('day', days)}}>
           <div className='bb-container '>
-            <div className='orangeBox'>
+            <div className='inputBox'>
               DAY
             </div>
           </div>
@@ -199,7 +199,7 @@ const [settingProvince, setProvinceYear] = useState()
 
         <div className='select_container' onClick={(e)=>{ e.stopPropagation(); set_sidebar_dates('month', month)}}>
           <div className='bb-container '>
-            <div className='orangeBox'>
+            <div className='inputBox'>
               MONTH
             </div>
           </div>
@@ -210,7 +210,7 @@ const [settingProvince, setProvinceYear] = useState()
 
         <div className='select_container' onClick={(e)=>{ e.stopPropagation(); set_sidebar_dates('year', year)}}>
           <div className='bb-container '>
-            <div className='orangeBox'>
+            <div className='inputBox'>
               YEAR
             </div>
           </div>
@@ -221,7 +221,7 @@ const [settingProvince, setProvinceYear] = useState()
 
         <div className='select_container' onClick={(e)=>{ e.stopPropagation(); set_sidebar_dates('province', province)}}>
           <div className='bb-container '>
-            <div className='orangeBox'>
+            <div className='inputBox'>
               PROVINCE
             </div>
           </div>
@@ -231,13 +231,19 @@ const [settingProvince, setProvinceYear] = useState()
         </div>
 
         <div id='next_btn_landing'>
-          <Next text='Next.' path={'/'} verifyAge={settingYear} day={settingDay} month={settingMonth} province={settingProvince} color='#FF8C00' link='/prize'/>
+          <Next text='Next.' path={'/'} verifyAge={settingYear} day={settingDay} month={settingMonth} province={settingProvince} color='#6045B9' link='/prize'/>
         </div>
        </div>
 
       <p className="legal_copy">
-        All product images and labels provided for information and illustrative purposes
-        only, and do not represent the actual cannabis product, product label or it’s appearance.
+        By entering, I conset to receive emails and direct mails regarding newsletters, announcements,
+        updates, promotions in accordance with the Color Cannabis and <a href="https://entouragehealthcorp.com/privacy-policy/">Entourage Health Corp Privacy Policy.</a>
+        I understand that my personal information will never be shared or distributed, and will not be used for purposes other than stated as
+        part of the Color Cannabis Quiz.
+        <br/>
+        <br/>
+        All product images and labels provided for information and illustrative purposes only, and do not represent the actual
+        cannabis product, product label or it's appearance.
       </p>
 
       </div>
