@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import LandingPage from './Pages/Landing_page';
 import Video from './Pages/Video';
-import MangoHaze from './Pages/MangoHaze';
+import SpaceCake from './Pages/SpaceCake';
 import Quiz from './Pages/Quiz';
 import Datacapture from './Pages/Datacapture';
 import Instructions from './Pages/Instructions';
@@ -17,11 +17,11 @@ function App() {
             <Route path='/points' exact strict component={Redirecttoquiz}/>
             <Route path='/prize' exact strict component={Prize}/>
             <Route path='/educational-video' exact strict component={Video}/>
-            <Route path='/mango-haze' exact strict component={MangoHaze}/>
-            <Route path='/Quiz' exact strict component={Quiz}/>
+            <Route path='/space-cake' exact strict component={SpaceCake}/>
+            <Route path='/quiz' exact strict component={Quiz}/>
             <Route path='/data-capture' exact strict component={Datacapture}/>
             <Route path='/instructions' exact strict component={Instructions} />
-            <Route path='/ThanksForEntry' exact strict component={ThankYou} />
+            <Route path='/thanksforentry' exact strict component={ThankYou} />
         </Switch>
     </Router>
   );
