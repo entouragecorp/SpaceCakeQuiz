@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/space-cake/static/css/main.3626749f.chunk.css",
-    "main.js": "/space-cake/static/js/main.079d822a.chunk.js",
-    "main.js.map": "/space-cake/static/js/main.079d822a.chunk.js.map",
-    "runtime-main.js": "/space-cake/static/js/runtime-main.d26ebbea.js",
-    "runtime-main.js.map": "/space-cake/static/js/runtime-main.d26ebbea.js.map",
-    "static/js/2.577c3630.chunk.js": "/space-cake/static/js/2.577c3630.chunk.js",
-    "static/js/2.577c3630.chunk.js.map": "/space-cake/static/js/2.577c3630.chunk.js.map",
-    "static/js/3.5a6c6936.chunk.js": "/space-cake/static/js/3.5a6c6936.chunk.js",
-    "static/js/3.5a6c6936.chunk.js.map": "/space-cake/static/js/3.5a6c6936.chunk.js.map",
-    "index.html": "/space-cake/index.html",
-    "static/css/main.3626749f.chunk.css.map": "/space-cake/static/css/main.3626749f.chunk.css.map",
-    "static/js/2.577c3630.chunk.js.LICENSE.txt": "/space-cake/static/js/2.577c3630.chunk.js.LICENSE.txt",
-    "static/media/Color.f02d29c1.mp4": "/space-cake/static/media/Color.f02d29c1.mp4",
-    "static/media/Pages.scss": "/space-cake/static/media/purple-bg.170ca0f3.jpg",
-    "static/media/color-logo-white.png": "/space-cake/static/media/color-logo-white.c1917669.png",
-    "static/media/guitar.53634a63.svg": "/space-cake/static/media/guitar.53634a63.svg",
-    "static/media/orig-roomba.e30ced5a.png": "/space-cake/static/media/orig-roomba.e30ced5a.png",
-    "static/media/space-cake-package.feb4cf47.png": "/space-cake/static/media/space-cake-package.feb4cf47.png",
-    "static/media/space-cake-telescope.00531333.png": "/space-cake/static/media/space-cake-telescope.00531333.png"
+    "main.css": "/SpaceCakeQuiz/static/css/main.1bd7a28e.chunk.css",
+    "main.js": "/SpaceCakeQuiz/static/js/main.d55b90fc.chunk.js",
+    "main.js.map": "/SpaceCakeQuiz/static/js/main.d55b90fc.chunk.js.map",
+    "runtime-main.js": "/SpaceCakeQuiz/static/js/runtime-main.a5f24c35.js",
+    "runtime-main.js.map": "/SpaceCakeQuiz/static/js/runtime-main.a5f24c35.js.map",
+    "static/js/2.07fc6016.chunk.js": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js",
+    "static/js/2.07fc6016.chunk.js.map": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js.map",
+    "static/js/3.d84c84e1.chunk.js": "/SpaceCakeQuiz/static/js/3.d84c84e1.chunk.js",
+    "static/js/3.d84c84e1.chunk.js.map": "/SpaceCakeQuiz/static/js/3.d84c84e1.chunk.js.map",
+    "index.html": "/SpaceCakeQuiz/index.html",
+    "static/css/main.1bd7a28e.chunk.css.map": "/SpaceCakeQuiz/static/css/main.1bd7a28e.chunk.css.map",
+    "static/js/2.07fc6016.chunk.js.LICENSE.txt": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js.LICENSE.txt",
+    "static/media/Color.f02d29c1.mp4": "/SpaceCakeQuiz/static/media/Color.f02d29c1.mp4",
+    "static/media/Pages.scss": "/SpaceCakeQuiz/static/media/purple-bg.170ca0f3.jpg",
+    "static/media/color-logo-white.png": "/SpaceCakeQuiz/static/media/color-logo-white.c1917669.png",
+    "static/media/guitar.53634a63.svg": "/SpaceCakeQuiz/static/media/guitar.53634a63.svg",
+    "static/media/orig-roomba.e30ced5a.png": "/SpaceCakeQuiz/static/media/orig-roomba.e30ced5a.png",
+    "static/media/space-cake-package.feb4cf47.png": "/SpaceCakeQuiz/static/media/space-cake-package.feb4cf47.png",
+    "static/media/space-cake-telescope.00531333.png": "/SpaceCakeQuiz/static/media/space-cake-telescope.00531333.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d26ebbea.js",
-    "static/js/2.577c3630.chunk.js",
-    "static/css/main.3626749f.chunk.css",
-    "static/js/main.079d822a.chunk.js"
+    "static/js/runtime-main.a5f24c35.js",
+    "static/js/2.07fc6016.chunk.js",
+    "static/css/main.1bd7a28e.chunk.css",
+    "static/js/main.d55b90fc.chunk.js"
   ]
 }
