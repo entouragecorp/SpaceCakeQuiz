@@ -233,18 +233,18 @@ const [settingProvince, setProvinceYear] = useState()
         <div id='next_btn_landing'>
           <Next text='Next.' path={'/'} verifyAge={settingYear} day={settingDay} month={settingMonth} province={settingProvince} color='#6045B9' link='/prize'/>
         </div>
-       </div>
 
-      <p className="legal_copy">
-        By entering, I conset to receive emails and direct mails regarding newsletters, announcements,
-        updates, promotions in accordance with the Color Cannabis and <a href="https://entouragehealthcorp.com/privacy-policy/">Entourage Health Corp Privacy Policy.</a>
-        I understand that my personal information will never be shared or distributed, and will not be used for purposes other than stated as
-        part of the Color Cannabis Quiz.
-        <br/>
-        <br/>
-        All product images and labels provided for information and illustrative purposes only, and do not represent the actual
-        cannabis product, product label or it's appearance.
-      </p>
+        <p className="legal_copy">
+          By entering, I conset to receive emails and direct mails regarding newsletters, announcements,
+          updates, promotions in accordance with the Color Cannabis and <a href="https://entouragehealthcorp.com/privacy-policy/">Entourage Health Corp Privacy Policy.</a>
+          I understand that my personal information will never be shared or distributed, and will not be used for purposes other than stated as
+          part of the Color Cannabis Quiz.
+          <br/>
+          <br/>
+          All product images and labels provided for information and illustrative purposes only, and do not represent the actual
+          cannabis product, product label or it's appearance.
+        </p>
+       </div>
 
       </div>
     </div>

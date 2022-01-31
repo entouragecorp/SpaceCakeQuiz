@@ -136,8 +136,8 @@ const Quiz = (props) => {
         else {
           completed.push(random)
           question.current.textContent = list_of_questions[random].question
-          bg.current.style.background = list_of_questions[random].bg
-          bg.current.style.backgroundSize = '100% 100%'
+          bg.current.style.backgroundImage = list_of_questions[random].bg
+          // bg.current.style.backgroundSize = '100% 100%'
 
           keyMap.forEach(key => {
             eval(key).current.className = `ans`
@@ -190,11 +190,11 @@ const Quiz = (props) => {
             </div>
             <img ref={orangeLogoRef} className="colorLogo" src={OrangeLogo} alt="Color Cannabis Orange Logo" />
             <img ref={purpleLogoRef} className="colorLogo displayNone" src={PurpleLogo} alt="Color Cannabis Orange Logo" />
+            <p className="legal_copy">
+              All product images and labels provided for information and illustrative purposes
+              only, and do not represent the actual cannabis product, product label or it’s appearance.
+            </p>
         </div>
-        <p className="legal_copy">
-          All product images and labels provided for information and illustrative purposes
-          only, and do not represent the actual cannabis product, product label or it’s appearance.
-        </p>
       </div>
     )
 
