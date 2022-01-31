@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/SpaceCakeQuiz/static/css/main.1bd7a28e.chunk.css",
-    "main.js": "/SpaceCakeQuiz/static/js/main.d55b90fc.chunk.js",
-    "main.js.map": "/SpaceCakeQuiz/static/js/main.d55b90fc.chunk.js.map",
+    "main.js": "/SpaceCakeQuiz/static/js/main.4d637fa5.chunk.js",
+    "main.js.map": "/SpaceCakeQuiz/static/js/main.4d637fa5.chunk.js.map",
     "runtime-main.js": "/SpaceCakeQuiz/static/js/runtime-main.a5f24c35.js",
     "runtime-main.js.map": "/SpaceCakeQuiz/static/js/runtime-main.a5f24c35.js.map",
     "static/js/2.07fc6016.chunk.js": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/SpaceCakeQuiz/index.html",
     "static/css/main.1bd7a28e.chunk.css.map": "/SpaceCakeQuiz/static/css/main.1bd7a28e.chunk.css.map",
     "static/js/2.07fc6016.chunk.js.LICENSE.txt": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js.LICENSE.txt",
-    "static/media/Color.f02d29c1.mp4": "/SpaceCakeQuiz/static/media/Color.f02d29c1.mp4",
+    "static/media/Color.73f5a272.mp4": "/SpaceCakeQuiz/static/media/Color.73f5a272.mp4",
     "static/media/Pages.scss": "/SpaceCakeQuiz/static/media/purple-bg.170ca0f3.jpg",
     "static/media/color-logo-white.png": "/SpaceCakeQuiz/static/media/color-logo-white.c1917669.png",
     "static/media/guitar.53634a63.svg": "/SpaceCakeQuiz/static/media/guitar.53634a63.svg",
@@ -24,6 +24,6 @@
     "static/js/runtime-main.a5f24c35.js",
     "static/js/2.07fc6016.chunk.js",
     "static/css/main.1bd7a28e.chunk.css",
-    "static/js/main.d55b90fc.chunk.js"
+    "static/js/main.4d637fa5.chunk.js"
   ]
 }
