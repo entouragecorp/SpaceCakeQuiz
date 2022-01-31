@@ -1,6 +1,6 @@
 {
-  "homepage": "https://entouragecorp.github.io/space-cake/",
-  "name": "space-cake",
+  "homepage": "https://entouragecorp.github.io/SpaceCakeQuiz/",
+  "name": "SpaceCakeQuiz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
