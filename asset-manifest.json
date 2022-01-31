@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/mangohaze/static/css/main.41967682.chunk.css",
-    "main.js": "/mangohaze/static/js/main.1bcaf8e4.chunk.js",
-    "main.js.map": "/mangohaze/static/js/main.1bcaf8e4.chunk.js.map",
-    "runtime-main.js": "/mangohaze/static/js/runtime-main.c7252007.js",
-    "runtime-main.js.map": "/mangohaze/static/js/runtime-main.c7252007.js.map",
-    "static/js/2.978e927f.chunk.js": "/mangohaze/static/js/2.978e927f.chunk.js",
-    "static/js/2.978e927f.chunk.js.map": "/mangohaze/static/js/2.978e927f.chunk.js.map",
-    "static/js/3.d38a5543.chunk.js": "/mangohaze/static/js/3.d38a5543.chunk.js",
-    "static/js/3.d38a5543.chunk.js.map": "/mangohaze/static/js/3.d38a5543.chunk.js.map",
-    "index.html": "/mangohaze/index.html",
-    "static/css/main.41967682.chunk.css.map": "/mangohaze/static/css/main.41967682.chunk.css.map",
-    "static/js/2.978e927f.chunk.js.LICENSE.txt": "/mangohaze/static/js/2.978e927f.chunk.js.LICENSE.txt",
-    "static/media/Color.f02d29c1.mp4": "/mangohaze/static/media/Color.f02d29c1.mp4",
-    "static/media/Pages.scss": "/mangohaze/static/media/purple-bg.a9df8fa2.png",
-    "static/media/color-logo-orange.svg": "/mangohaze/static/media/color-logo-orange.a2759d5e.svg",
-    "static/media/color-logo-purple.svg": "/mangohaze/static/media/color-logo-purple.84013984.svg",
-    "static/media/guitar.53634a63.svg": "/mangohaze/static/media/guitar.53634a63.svg",
-    "static/media/mango-cartridge.fc7d950f.png": "/mangohaze/static/media/mango-cartridge.fc7d950f.png",
-    "static/media/orig-roomba.e30ced5a.png": "/mangohaze/static/media/orig-roomba.e30ced5a.png",
-    "static/media/t-shirt-prize.63ed81c7.png": "/mangohaze/static/media/t-shirt-prize.63ed81c7.png"
+    "main.css": "/space-cake/static/css/main.3626749f.chunk.css",
+    "main.js": "/space-cake/static/js/main.079d822a.chunk.js",
+    "main.js.map": "/space-cake/static/js/main.079d822a.chunk.js.map",
+    "runtime-main.js": "/space-cake/static/js/runtime-main.d26ebbea.js",
+    "runtime-main.js.map": "/space-cake/static/js/runtime-main.d26ebbea.js.map",
+    "static/js/2.577c3630.chunk.js": "/space-cake/static/js/2.577c3630.chunk.js",
+    "static/js/2.577c3630.chunk.js.map": "/space-cake/static/js/2.577c3630.chunk.js.map",
+    "static/js/3.5a6c6936.chunk.js": "/space-cake/static/js/3.5a6c6936.chunk.js",
+    "static/js/3.5a6c6936.chunk.js.map": "/space-cake/static/js/3.5a6c6936.chunk.js.map",
+    "index.html": "/space-cake/index.html",
+    "static/css/main.3626749f.chunk.css.map": "/space-cake/static/css/main.3626749f.chunk.css.map",
+    "static/js/2.577c3630.chunk.js.LICENSE.txt": "/space-cake/static/js/2.577c3630.chunk.js.LICENSE.txt",
+    "static/media/Color.f02d29c1.mp4": "/space-cake/static/media/Color.f02d29c1.mp4",
+    "static/media/Pages.scss": "/space-cake/static/media/purple-bg.170ca0f3.jpg",
+    "static/media/color-logo-white.png": "/space-cake/static/media/color-logo-white.c1917669.png",
+    "static/media/guitar.53634a63.svg": "/space-cake/static/media/guitar.53634a63.svg",
+    "static/media/orig-roomba.e30ced5a.png": "/space-cake/static/media/orig-roomba.e30ced5a.png",
+    "static/media/space-cake-package.feb4cf47.png": "/space-cake/static/media/space-cake-package.feb4cf47.png",
+    "static/media/space-cake-telescope.00531333.png": "/space-cake/static/media/space-cake-telescope.00531333.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.c7252007.js",
-    "static/js/2.978e927f.chunk.js",
-    "static/css/main.41967682.chunk.css",
-    "static/js/main.1bcaf8e4.chunk.js"
+    "static/js/runtime-main.d26ebbea.js",
+    "static/js/2.577c3630.chunk.js",
+    "static/css/main.3626749f.chunk.css",
+    "static/js/main.079d822a.chunk.js"
   ]
 }
