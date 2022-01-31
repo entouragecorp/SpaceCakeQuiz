@@ -14,7 +14,7 @@ const Video = (props) => {
 
     setTimeout(()=>{
       history.push('/space-cake')
-    },20000)
+    },15000)
   }, [])
   return(
     <video width="100%" height="100%" autoPlay muted >
