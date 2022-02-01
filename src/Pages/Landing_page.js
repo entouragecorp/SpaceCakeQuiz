@@ -222,7 +222,7 @@ const [settingProvince, setProvinceYear] = useState()
         <div className='select_container' onClick={(e)=>{ e.stopPropagation(); set_sidebar_dates('province', province)}}>
           <div className='bb-container '>
             <div className='inputBox'>
-              PROVINCE
+              PROV
             </div>
           </div>
           <div className='input-label'>
