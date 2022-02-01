@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SpaceCakeQuiz/static/css/main.ed136860.chunk.css",
-    "main.js": "/SpaceCakeQuiz/static/js/main.c6d52699.chunk.js",
-    "main.js.map": "/SpaceCakeQuiz/static/js/main.c6d52699.chunk.js.map",
+    "main.css": "/SpaceCakeQuiz/static/css/main.37f13844.chunk.css",
+    "main.js": "/SpaceCakeQuiz/static/js/main.d05cf47f.chunk.js",
+    "main.js.map": "/SpaceCakeQuiz/static/js/main.d05cf47f.chunk.js.map",
     "runtime-main.js": "/SpaceCakeQuiz/static/js/runtime-main.a5f24c35.js",
     "runtime-main.js.map": "/SpaceCakeQuiz/static/js/runtime-main.a5f24c35.js.map",
     "static/js/2.07fc6016.chunk.js": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d84c84e1.chunk.js": "/SpaceCakeQuiz/static/js/3.d84c84e1.chunk.js",
     "static/js/3.d84c84e1.chunk.js.map": "/SpaceCakeQuiz/static/js/3.d84c84e1.chunk.js.map",
     "index.html": "/SpaceCakeQuiz/index.html",
-    "static/css/main.ed136860.chunk.css.map": "/SpaceCakeQuiz/static/css/main.ed136860.chunk.css.map",
+    "static/css/main.37f13844.chunk.css.map": "/SpaceCakeQuiz/static/css/main.37f13844.chunk.css.map",
     "static/js/2.07fc6016.chunk.js.LICENSE.txt": "/SpaceCakeQuiz/static/js/2.07fc6016.chunk.js.LICENSE.txt",
     "static/media/Color.73f5a272.mp4": "/SpaceCakeQuiz/static/media/Color.73f5a272.mp4",
     "static/media/Pages.scss": "/SpaceCakeQuiz/static/media/purple-bg.170ca0f3.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5f24c35.js",
     "static/js/2.07fc6016.chunk.js",
-    "static/css/main.ed136860.chunk.css",
-    "static/js/main.c6d52699.chunk.js"
+    "static/css/main.37f13844.chunk.css",
+    "static/js/main.d05cf47f.chunk.js"
   ]
 }
