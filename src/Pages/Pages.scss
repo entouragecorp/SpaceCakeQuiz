@@ -207,20 +207,22 @@ div[id*="next_btn_"] {
     padding-bottom: 10px;
 
     ul{
-      margin-top: 5vh;
+      margin-top: 0;
       position: absolute;
       width: 100%;
       padding: 0;
       height: 70vh;
-      .opitons_list{
-          list-style-type: none;
-          color: white;
-          margin: 15px 0 15px 0;
+      .list-option{
+        list-style-type: none;
+        color: white;
+        margin: 15px 0 15px 0;
+        &:first-of-type {
+          margin-top: 0;
+        }
       }
     }
 
     .title{
-      position: fixed;
       z-index: 999;
       text-align: center;
       h4 {
@@ -756,7 +758,7 @@ div[id*="next_btn_"] {
         width: 100%;
         padding: 0;
         height: 70vh;
-        .opitons_list{
+        .list-option{
             list-style-type: none;
             color: white;
             margin: 15px 0 15px 0;

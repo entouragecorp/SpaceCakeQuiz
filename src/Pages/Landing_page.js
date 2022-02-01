@@ -171,7 +171,7 @@ const [settingProvince, setProvinceYear] = useState()
           {
               annualPicker.data.map((value, index) =>{
                 return(
-                  <li className='opitons_list' name={annualPicker.title} key={index} onClick={(e)=>{ e.stopPropagation(); select_sidebar_list(annualPicker.title, value)}}>
+                  <li className='list-option' name={annualPicker.title} key={index} onClick={(e)=>{ e.stopPropagation(); select_sidebar_list(annualPicker.title, value)}}>
                       {value}
                   </li>
                   )
