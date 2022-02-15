@@ -42,11 +42,11 @@ const Quiz = (props) => {
     const questionaire_limit = 5
     const list_of_questions = [
       {
-        question: 'The bud structure of Space Cake can be described as:',
+        question: 'Space Cake is what plant type?',
         options: {
-          a: 'A. Dark purple buds with blazing orange pistils, caked with trichomes',
-          b: 'B. Bright green, airy buds',
-          c: 'C. Dark green with orange pistils'
+          a: 'A. Indica-dominant Hybrid',
+          b: 'B. Sativa-dominant Hybrid',
+          c: 'C. CBD dominant'
         },
         answer: 'a',
         bg: `url(${OrangeBg})`
@@ -82,15 +82,15 @@ const Quiz = (props) => {
         bg: `url(${PurpleBg})`
       },
       {
-        question: 'Space Cake is what plant type?',
+        question: 'Fill in the Blank: Space Cake buds are caked in ______?',
         options: {
-          a: 'A. Hybrid Indica-dominant',
-          b: 'B. Hybrid Sativa-dominant ',
-          c: 'C. CBD dominant'
+          a: 'A. Frosting',
+          b: 'B. Trichomes',
+          c: 'C. Mud'
         },
-        answer: 'a',
+        answer: 'b',
         bg: `url(${OrangeBg})`
-      }
+      },
     ]
     const history = useHistory()
 
