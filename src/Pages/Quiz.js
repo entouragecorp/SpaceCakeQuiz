@@ -46,7 +46,6 @@ const Quiz = (props) => {
         options: {
           a: 'A. Indica-dominant Hybrid',
           b: 'B. Sativa-dominant Hybrid',
-          c: 'C. CBD dominant'
         },
         answer: 'a',
         bg: `url(${OrangeBg})`

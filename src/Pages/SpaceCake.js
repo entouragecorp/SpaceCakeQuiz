@@ -22,12 +22,7 @@ const SweetSour = (props) => {
         <div className='shared_width'>
 
           <div className='info_container'>
-            <p className='margin_zero'>
-              Color Space Cake is an out of this world indica-dominant hybrid strain,
-              a rare cross between legendary cultivars GSC and Snow Lotus. Its buds
-              have dark purple hues, and blazing orange pistils caked with trichomes.
-              Expect a 20 – 26% THC with notes of musk and creamy diesel cues.
-            </p>
+            <p className='margin_zero'>Color Space Cake is an out of this world indica-dominant hybrid strain, a rare cross between legendary cultivars GSC and Snow Lotus. Its buds are caked with trichomes, expect a 20 – 26% THC with notes of musk and creamy diesel cues.</p>
           </div>
 
           <div className='info_container'>
