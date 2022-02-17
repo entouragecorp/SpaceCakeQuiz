@@ -235,7 +235,7 @@ const [settingProvince, setProvinceYear] = useState()
         </div>
 
         <p className="legal_copy">
-          By entering, I conset to receive emails and direct mails regarding newsletters, announcements,
+          By entering, I consent to receive emails and direct mails regarding newsletters, announcements,
           updates, promotions in accordance with the Color Cannabis and <a href="https://entouragehealthcorp.com/privacy-policy/">Entourage Health Corp Privacy Policy.</a>
           I understand that my personal information will never be shared or distributed, and will not be used for purposes other than stated as
           part of the Color Cannabis Quiz.

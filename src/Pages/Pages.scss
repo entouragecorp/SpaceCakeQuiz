@@ -284,7 +284,7 @@ div[id*="next_btn_"] {
   overflow-y: scroll;
   background: url('./../Assets/orange-bg.jpg') no-repeat center center;
   background-size: cover;
-  padding: 0 10%;
+  padding: 5vh 10%;
 
   h1{
     margin-bottom: 5px;
@@ -303,12 +303,13 @@ div[id*="next_btn_"] {
     justify-content: flex-end;
     padding-top: 12%;
   }
+
   .columns_holder{
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 5vh
   }
   .shared_width{
     color: white;
@@ -703,10 +704,11 @@ div[id*="next_btn_"] {
   min-height: 100% !important;
   background: url('./../Assets/purple-bg.jpg');
   background-size: cover;
-  padding: 20vh 10% 0;
+  padding: 10vh 10%;
   text-align: center;
 
   .messaging_for_points{
+    position: relative;
     width: 100%;
     height: fit-content;
     display: flex;
@@ -718,7 +720,7 @@ div[id*="next_btn_"] {
       font-weight: 100;
       font-size: 34px;
       justify-content: center;
-      color: $orange;
+      color: #fff;
       z-index: 20;
       text-align: center;
     }
@@ -729,11 +731,20 @@ div[id*="next_btn_"] {
     }
   }
 
+  .prize-graphic{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 80%;
+  }
+
   .next_btn {
-    background-color: $orange;
-    font-size: 18px;
+    position: relative;
+    top: -50px;
+    background-color: #E25640;
+    font-size: 24px;
     font-weight: 700;
-    padding: 10px 15px;
+    padding: 10px 50px;
   }
 }
 
