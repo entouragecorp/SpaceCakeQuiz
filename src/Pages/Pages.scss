@@ -738,13 +738,21 @@ div[id*="next_btn_"] {
     width: 80%;
   }
 
-  .next_btn {
-    position: relative;
-    top: -50px;
-    background-color: #E25640;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 10px 50px;
+  #next_btn_thanks{
+    margin-bottom: 0;
+    
+    .next_btn {
+      position: relative;
+      top: -50px;
+      background-color: #E25640;
+      font-size: 24px;
+      font-weight: 700;
+      padding: 10px 50px;
+    }
+  }
+
+  .colorLogoSmall{
+    width: 110px;
   }
 }
 

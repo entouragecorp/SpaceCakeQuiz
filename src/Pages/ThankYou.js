@@ -26,6 +26,7 @@ const ThankYou = (props) => {
         <div id='next_btn_thanks'>
           <Next text='Play Again' link='/quiz' color='#E25640' />
         </div>
+        <img className="colorLogoSmall" src={Logo} alt="Color Cannabis Logo" />
         <p className="legal_copy">
           All product images and labels provided for information and illustrative purposes
           only, and do not represent the actual cannabis product, product label or it’s appearance.
