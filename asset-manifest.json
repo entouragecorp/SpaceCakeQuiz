@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/SpaceCakeQuiz/static/css/main.37f13844.chunk.css",
-    "main.js": "/SpaceCakeQuiz/static/js/main.973febbf.chunk.js",
-    "main.js.map": "/SpaceCakeQuiz/static/js/main.973febbf.chunk.js.map",
+    "main.css": "/SpaceCakeQuiz/static/css/main.07c61f83.chunk.css",
+    "main.js": "/SpaceCakeQuiz/static/js/main.dde0c017.chunk.js",
+    "main.js.map": "/SpaceCakeQuiz/static/js/main.dde0c017.chunk.js.map",
     "runtime-main.js": "/SpaceCakeQuiz/static/js/runtime-main.105e0203.js",
     "runtime-main.js.map": "/SpaceCakeQuiz/static/js/runtime-main.105e0203.js.map",
     "static/js/2.91723598.chunk.js": "/SpaceCakeQuiz/static/js/2.91723598.chunk.js",
@@ -10,20 +10,20 @@
     "static/js/3.b50765db.chunk.js": "/SpaceCakeQuiz/static/js/3.b50765db.chunk.js",
     "static/js/3.b50765db.chunk.js.map": "/SpaceCakeQuiz/static/js/3.b50765db.chunk.js.map",
     "index.html": "/SpaceCakeQuiz/index.html",
-    "static/css/main.37f13844.chunk.css.map": "/SpaceCakeQuiz/static/css/main.37f13844.chunk.css.map",
+    "static/css/main.07c61f83.chunk.css.map": "/SpaceCakeQuiz/static/css/main.07c61f83.chunk.css.map",
     "static/js/2.91723598.chunk.js.LICENSE.txt": "/SpaceCakeQuiz/static/js/2.91723598.chunk.js.LICENSE.txt",
     "static/media/Color.73f5a272.mp4": "/SpaceCakeQuiz/static/media/Color.73f5a272.mp4",
     "static/media/Pages.scss": "/SpaceCakeQuiz/static/media/purple-bg.170ca0f3.jpg",
     "static/media/color-logo-white.png": "/SpaceCakeQuiz/static/media/color-logo-white.c1917669.png",
     "static/media/guitar.53634a63.svg": "/SpaceCakeQuiz/static/media/guitar.53634a63.svg",
     "static/media/orig-roomba.e30ced5a.png": "/SpaceCakeQuiz/static/media/orig-roomba.e30ced5a.png",
-    "static/media/space-cake-package.feb4cf47.png": "/SpaceCakeQuiz/static/media/space-cake-package.feb4cf47.png",
+    "static/media/space-cake-package.ca5b73ab.png": "/SpaceCakeQuiz/static/media/space-cake-package.ca5b73ab.png",
     "static/media/space-cake-telescope.00531333.png": "/SpaceCakeQuiz/static/media/space-cake-telescope.00531333.png"
   },
   "entrypoints": [
     "static/js/runtime-main.105e0203.js",
     "static/js/2.91723598.chunk.js",
-    "static/css/main.37f13844.chunk.css",
-    "static/js/main.973febbf.chunk.js"
+    "static/css/main.07c61f83.chunk.css",
+    "static/js/main.dde0c017.chunk.js"
   ]
 }
